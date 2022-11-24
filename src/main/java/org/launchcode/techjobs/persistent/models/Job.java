@@ -48,4 +48,9 @@ public class Job{
     public void setSkills(String skills) {
         this.skills = skills;
     }
+
+    // added 11.21.22, how to get id for the add?
+    public int getId() {
+        return id;
+    }
 }
